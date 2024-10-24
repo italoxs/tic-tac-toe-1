@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020617;
+  color: #f1f5f9;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  background: #64748b;
+  width: 124px;
+  height: 124px;
+  font-size: 64px;
+  text-align: center;
+  border: 1px solid #0f172a;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+td:hover {
+  background: #cbd5e1;
+  cursor: pointer;
+}
